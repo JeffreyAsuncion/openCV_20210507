@@ -8,3 +8,11 @@ pipenv install caer
 
 sudo apt update
 sudo apt install libopencv-dev python3-opencv
+
+
+~~~~~~~~~~~~~~~~~~~~~
+
+python3 -m venv opencv_venv
+
+python3 -m pip install --upgrade pip
+
