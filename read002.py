@@ -1,3 +1,5 @@
+# reading and viewing videos
+
 import cv2 as cv
 
 # img = cv.imread('Photos/cat_large.jpg') # 2300 x 1600 : too big for screen
