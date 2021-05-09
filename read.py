@@ -3,7 +3,6 @@
 import cv2 as cv
 
 
-
 def rescaleFrame(frame, scale=0.75):  #default scale=0.75
     # This will work of Images, Video and Live Video
     width = int(frame.shape[1] * scale)
@@ -23,7 +22,7 @@ def rescaleFrame(frame, scale=0.75):  #default scale=0.75
 
 
 def changeRes(width, height):
-
+    # Only works for Live Video
     capture.set(3, width)
     capture.set(4, height)
 
